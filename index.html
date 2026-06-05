@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio d'Amadou Dao — Spécialiste IT polyvalent : systèmes & réseaux, développement web, digitalisation (ICT4D) et création visuelle. Basé à Bamako, Mali." />
+  <title>Amadou Dao — Spécialiste IT | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#accueil" class="nav__logo">&lt;AD/&gt;</a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#experience">Expérience</a>
+        <a href="#formation">Formation</a>
+        <a href="#projets">Réalisations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">🌙</button>
+        <button class="nav__burger" id="navBurger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__eyebrow">👋 Bonjour, je m'appelle</p>
+          <h1 class="hero__name">Amadou Dao</h1>
+          <h2 class="hero__role">Spécialiste IT polyvalent — Systèmes, Web &amp; Digitalisation</h2>
+          <p class="hero__desc">
+            Double expertise en Informatique de Gestion et Économie du Développement.
+            Expérimenté en maintenance système, support utilisateur, développement web
+            et digitalisation (ICT4D). J'intègre des solutions technologiques au service
+            d'environnements complexes.
+          </p>
+          <div class="hero__cta">
+            <a href="#projets" class="btn btn--primary">Voir mes réalisations</a>
+            <a href="#contact" class="btn btn--ghost">Me contacter</a>
+          </div>
+          <div class="hero__socials">
+            <a href="mailto:Amadoudao125@gmail.com" aria-label="Email">Email</a>
+            <a href="tel:+22371060784" aria-label="Téléphone">+223 71 06 07 84</a>
+            <a href="#" aria-label="Localisation">Bamako, Mali</a>
+          </div>
+        </div>
+        <div class="hero__card">
+          <div class="code-card">
+            <div class="code-card__bar">
+              <span></span><span></span><span></span>
+            </div>
+            <pre class="code-card__body"><code><span class="tok-kw">const</span> <span class="tok-var">amadou</span> = {
+  <span class="tok-prop">poste</span>: <span class="tok-str">"Spécialiste IT"</span>,
+  <span class="tok-prop">expertises</span>: [<span class="tok-str">"Systèmes"</span>, <span class="tok-str">"Web"</span>, <span class="tok-str">"Digital"</span>],
+  <span class="tok-prop">stack</span>: [<span class="tok-str">"HTML/CSS"</span>, <span class="tok-str">"JS"</span>, <span class="tok-str">"PHP"</span>, <span class="tok-str">"SQL"</span>],
+  <span class="tok-prop">localisation</span>: <span class="tok-str">"Bamako, Mali"</span>,
+  <span class="tok-prop">disponible</span>: <span class="tok-bool">true</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="section" id="apropos">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">01.</span> À propos</h2>
+        <div class="about">
+          <div class="about__text">
+            <p>
+              Je suis <strong>Amadou Dao</strong>, spécialiste IT polyvalent basé à Bamako (Mali).
+              Mon parcours combine une <strong>double expertise</strong> : l'Informatique de Gestion
+              et l'Économie Internationale du Développement.
+            </p>
+            <p>
+              Au fil de mes expériences, j'ai développé des compétences solides en
+              <strong>maintenance système et réseaux</strong>, en <strong>support utilisateur</strong>,
+              en <strong>développement web</strong> et en <strong>digitalisation</strong> (ICT4D,
+              collecte de données, marketing digital, création visuelle).
+            </p>
+            <p>
+              J'aime mettre la technologie au service de projets concrets et accompagner
+              les organisations dans leur transformation numérique.
+            </p>
+            <ul class="about__langs">
+              <li><span>🇫🇷 Français</span> Courant</li>
+              <li><span>🇲🇱 Bambara</span> Bilingue</li>
+              <li><span>🇬🇧 Anglais</span> Intermédiaire</li>
+            </ul>
+          </div>
+          <ul class="about__facts">
+            <li><span class="about__num">4+</span> ans d'expérience IT</li>
+            <li><span class="about__num">5</span> diplômes &amp; certifications</li>
+            <li><span class="about__num">3</span> langues parlées</li>
+            <li><span class="about__num">100%</span> orienté solutions</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="section section--alt" id="competences">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">02.</span> Compétences</h2>
+        <div class="skills">
+          <div class="skill-card">
+            <h3>Systèmes &amp; Réseaux</h3>
+            <ul class="tags">
+              <li>Maintenance PC</li><li>Serveurs</li><li>Windows</li>
+              <li>Réseaux</li><li>Sécurité info</li><li>Sauvegardes</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Développement Web</h3>
+            <ul class="tags">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+              <li>PHP</li><li>MySQL / SQL</li><li>WordPress</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Digitalisation &amp; ICT4D</h3>
+            <ul class="tags">
+              <li>KoboToolbox</li><li>Collecte de données</li><li>Marketing digital</li>
+              <li>Meta Ads</li><li>Gestion de projet</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Graphisme &amp; Vidéo</h3>
+            <ul class="tags">
+              <li>Canva</li><li>Photoshop</li><li>CapCut</li>
+              <li>Motion</li><li>UI/UX</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Bureautique &amp; Collaboration</h3>
+            <ul class="tags">
+              <li>MS Office (Expert)</li><li>Zoom</li><li>Microsoft Teams</li>
+              <li>Skype</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Support &amp; Services IT</h3>
+            <ul class="tags">
+              <li>Support utilisateur</li><li>Déploiement d'applis</li><li>Maintenance préventive</li>
+              <li>Sécurisation des données</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPÉRIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">03.</span> Expérience professionnelle</h2>
+        <div class="timeline">
+          <div class="timeline__item">
+            <span class="timeline__date">Février 2024 — Présent</span>
+            <h3>Prestation de services (Communication &amp; IT) — Université Polytechnique de Bamako (UPB)</h3>
+            <p>
+              Conception et gestion de campagnes publicitaires digitales (Meta) ·
+              Création de supports visuels et institutionnels (Canva, Photoshop) ·
+              Support technique des outils de communication (Zoom, Skype, Microsoft Teams).
+            </p>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__date">2021 — 2024</span>
+            <h3>Technicien Informatique — Cyber Café les Élites, Bamako</h3>
+            <p>
+              Installation, configuration et maintenance préventive/corrective du parc informatique ·
+              Support technique matériel/logiciel et sécurisation des données ·
+              Gestion des sauvegardes et déploiement d'applications.
+            </p>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__date">Été 2020</span>
+            <h3>Stagiaire en Développement Web — Centre Global de Technologies du Mali, Bamako</h3>
+            <p>Contribution au développement et à la mise à jour de sites web.</p>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__date">2017 — 2019</span>
+            <h3>Gestionnaire des activités — Pressing Haoussa, Bamako</h3>
+            <p>Supervision des opérations et gestion des stocks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMATION -->
+    <section class="section section--alt" id="formation">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">04.</span> Formation &amp; Certifications</h2>
+        <div class="two-col">
+          <div>
+            <h3 class="subhead">Diplômes</h3>
+            <div class="timeline">
+              <div class="timeline__item">
+                <span class="timeline__date">2024</span>
+                <h3>Licence 3 — Économie Internationale du Développement</h3>
+                <p>FSEG, Bamako.</p>
+              </div>
+              <div class="timeline__item">
+                <span class="timeline__date">2023</span>
+                <h3>Licence Professionnelle — Gestion des Entreprises</h3>
+                <p>CUPP-BALLAT.</p>
+              </div>
+              <div class="timeline__item">
+                <span class="timeline__date">2021</span>
+                <h3>Licence Professionnelle — Informatique de Gestion</h3>
+                <p>CUPP-BALLAT.</p>
+              </div>
+              <div class="timeline__item">
+                <span class="timeline__date">2020</span>
+                <h3>DUT — Gestion des Entreprises et Administrations</h3>
+                <p>CUPP-BALLAT.</p>
+              </div>
+              <div class="timeline__item">
+                <span class="timeline__date">2017</span>
+                <h3>Baccalauréat — Sciences Économiques</h3>
+                <p>Lycée Balla Traoré.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 class="subhead">Certifications &amp; Webinaires</h3>
+            <ul class="certs">
+              <li>Développement front-end moderne (HTML5, CSS3, JS)</li>
+              <li>Développement full-stack (PHP, MySQL)</li>
+              <li>Création et gestion de sites WordPress</li>
+              <li>Design d'interfaces UI/UX</li>
+              <li>Marketing digital et gestion de projets web</li>
+            </ul>
+            <h3 class="subhead subhead--mt">Centres d'intérêt</h3>
+            <ul class="tags">
+              <li>Recherche technologique</li><li>Voyages</li><li>Sport</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RÉALISATIONS -->
+    <section class="section" id="projets">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">05.</span> Réalisations</h2>
+        <div class="projects">
+          <article class="project">
+            <div class="project__top">
+              <span class="project__icon">📣</span>
+            </div>
+            <h3>Campagnes publicitaires digitales</h3>
+            <p>Conception et gestion de campagnes Meta (Facebook/Instagram) pour l'UPB : ciblage, création de visuels et suivi des performances.</p>
+            <ul class="tags tags--mono"><li>Meta Ads</li><li>Canva</li><li>Marketing digital</li></ul>
+          </article>
+          <article class="project">
+            <div class="project__top">
+              <span class="project__icon">🌐</span>
+            </div>
+            <h3>Sites web &amp; WordPress</h3>
+            <p>Développement et mise à jour de sites web (HTML/CSS/JS, PHP) et création/gestion de sites sous WordPress.</p>
+            <ul class="tags tags--mono"><li>WordPress</li><li>PHP</li><li>HTML/CSS</li></ul>
+          </article>
+          <article class="project">
+            <div class="project__top">
+              <span class="project__icon">📊</span>
+            </div>
+            <h3>Collecte de données digitales</h3>
+            <p>Mise en place de formulaires et de la collecte de données terrain avec KoboToolbox dans une démarche ICT4D.</p>
+            <ul class="tags tags--mono"><li>KoboToolbox</li><li>Données</li><li>ICT4D</li></ul>
+          </article>
+          <article class="project">
+            <div class="project__top">
+              <span class="project__icon">🎬</span>
+            </div>
+            <h3>Création visuelle &amp; montage vidéo</h3>
+            <p>Réalisation de supports institutionnels et de contenus vidéo : affiches, visuels réseaux sociaux et montages.</p>
+            <ul class="tags tags--mono"><li>Photoshop</li><li>CapCut</li><li>Motion</li></ul>
+          </article>
+          <article class="project">
+            <div class="project__top">
+              <span class="project__icon">🖥️</span>
+            </div>
+            <h3>Maintenance &amp; support du parc informatique</h3>
+            <p>Installation, configuration et maintenance préventive/corrective ; support matériel/logiciel et sécurisation des données.</p>
+            <ul class="tags tags--mono"><li>Windows</li><li>Réseaux</li><li>Support</li></ul>
+          </article>
+          <article class="project">
+            <div class="project__top">
+              <span class="project__icon">💾</span>
+            </div>
+            <h3>Sauvegardes &amp; déploiement d'applications</h3>
+            <p>Gestion des sauvegardes et déploiement d'applications pour assurer la continuité et la sécurité des données.</p>
+            <ul class="tags tags--mono"><li>Sauvegardes</li><li>Déploiement</li><li>Sécurité</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--alt" id="contact">
+      <div class="container contact">
+        <h2 class="section__title section__title--center"><span class="section__num">06.</span> Contact</h2>
+        <p class="contact__intro">
+          Une opportunité, un projet ou une question ?
+          Contactez-moi, je réponds rapidement !
+        </p>
+        <div class="contact__info">
+          <a href="mailto:Amadoudao125@gmail.com">✉️ Amadoudao125@gmail.com</a>
+          <a href="tel:+22371060784">📞 +223 71 06 07 84</a>
+          <span>📍 Bamako-Boulkassoumbougou, BP 91091, Mali</span>
+        </div>
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="field">
+            <input type="text" id="name" name="name" placeholder="Votre nom" required />
+          </div>
+          <div class="field">
+            <input type="email" id="email" name="email" placeholder="Votre email" required />
+          </div>
+          <div class="field">
+            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Envoyer</button>
+          <p class="contact__status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Conçu &amp; développé par Amadou Dao — 2026</p>
+      <p class="footer__note">Spécialiste IT · Bamako, Mali</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
