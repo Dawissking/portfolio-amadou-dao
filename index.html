@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio d'Amadou Dao — Spécialiste IT polyvalent : systèmes & réseaux, développement web, digitalisation (ICT4D) et création visuelle. Basé à Bamako, Mali." />
+  <meta name="description" content="Portfolio d'Amadou Dao — Spécialiste IT polyvalent : systèmes & réseaux, développement web, digitalisation et création visuelle. Basé à Bamako, Mali." />
   <title>Amadou Dao — Spécialiste IT | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,37 +35,28 @@
     <section class="hero" id="accueil">
       <div class="container hero__inner">
         <div class="hero__text">
-          <p class="hero__eyebrow">👋 Bonjour, je m'appelle</p>
+          <p class="hero__eyebrow">Bonjour, je suis</p>
           <h1 class="hero__name">Amadou Dao</h1>
-          <h2 class="hero__role">Spécialiste IT polyvalent — Systèmes, Web &amp; Digitalisation</h2>
+          <h2 class="hero__role"><span id="typingText"></span><span class="cursor">|</span></h2>
           <p class="hero__desc">
-            Double expertise en Informatique de Gestion et Économie du Développement.
-            Expérimenté en maintenance système, support utilisateur, développement web
-            et digitalisation (ICT4D). J'intègre des solutions technologiques au service
-            d'environnements complexes.
+            Spécialiste IT avec une double expertise en Informatique de Gestion
+            et Économie du Développement. J'accompagne les organisations dans
+            leur transformation numérique : maintenance système, développement web,
+            marketing digital et création visuelle.
           </p>
           <div class="hero__cta">
-            <a href="#projets" class="btn btn--primary">Voir mes réalisations</a>
+            <a href="#projets" class="btn btn--primary">Mes réalisations</a>
             <a href="#contact" class="btn btn--ghost">Me contacter</a>
           </div>
           <div class="hero__socials">
-            <a href="mailto:Amadoudao125@gmail.com" aria-label="Email">Email</a>
-            <a href="tel:+22371060784" aria-label="Téléphone">+223 71 06 07 84</a>
-            <a href="#" aria-label="Localisation">Bamako, Mali</a>
+            <a href="mailto:Amadoudao125@gmail.com" target="_blank" rel="noopener">✉️ Email</a>
+            <a href="tel:+22371060784">📞 +223 71 06 07 84</a>
+            <span>📍 Bamako, Mali</span>
           </div>
         </div>
-        <div class="hero__card">
-          <div class="code-card">
-            <div class="code-card__bar">
-              <span></span><span></span><span></span>
-            </div>
-            <pre class="code-card__body"><code><span class="tok-kw">const</span> <span class="tok-var">amadou</span> = {
-  <span class="tok-prop">poste</span>: <span class="tok-str">"Spécialiste IT"</span>,
-  <span class="tok-prop">expertises</span>: [<span class="tok-str">"Systèmes"</span>, <span class="tok-str">"Web"</span>, <span class="tok-str">"Digital"</span>],
-  <span class="tok-prop">stack</span>: [<span class="tok-str">"HTML/CSS"</span>, <span class="tok-str">"JS"</span>, <span class="tok-str">"PHP"</span>, <span class="tok-str">"SQL"</span>],
-  <span class="tok-prop">localisation</span>: <span class="tok-str">"Bamako, Mali"</span>,
-  <span class="tok-prop">disponible</span>: <span class="tok-bool">true</span>
-};</code></pre>
+        <div class="hero__photo">
+          <div class="photo-frame">
+            <img src="assets/amadou-dao.jpg" alt="Photo d'Amadou Dao" loading="eager" />
           </div>
         </div>
       </div>
@@ -74,23 +65,23 @@
     <!-- À PROPOS -->
     <section class="section" id="apropos">
       <div class="container">
-        <h2 class="section__title"><span class="section__num">01.</span> À propos</h2>
+        <h2 class="section__title"><span class="section__num">01.</span> À propos de moi</h2>
         <div class="about">
           <div class="about__text">
             <p>
               Je suis <strong>Amadou Dao</strong>, spécialiste IT polyvalent basé à Bamako (Mali).
-              Mon parcours combine une <strong>double expertise</strong> : l'Informatique de Gestion
-              et l'Économie Internationale du Développement.
+              Mon parcours associe une solide formation en <strong>Informatique de Gestion</strong>
+              à une expertise en <strong>Économie Internationale du Développement</strong>.
             </p>
             <p>
-              Au fil de mes expériences, j'ai développé des compétences solides en
-              <strong>maintenance système et réseaux</strong>, en <strong>support utilisateur</strong>,
-              en <strong>développement web</strong> et en <strong>digitalisation</strong> (ICT4D,
-              collecte de données, marketing digital, création visuelle).
+              Fort de plusieurs années d'expérience, j'ai acquis des compétences approfondies en
+              <strong>maintenance système et réseaux</strong>, en <strong>support technique</strong>,
+              en <strong>développement web</strong> ainsi qu'en <strong>digitalisation</strong>
+              (ICT4D, collecte de données, marketing digital et création visuelle).
             </p>
             <p>
-              J'aime mettre la technologie au service de projets concrets et accompagner
-              les organisations dans leur transformation numérique.
+              Ma mission : mettre la technologie au service de projets concrets et accompagner
+              les organisations dans leur transition numérique.
             </p>
             <ul class="about__langs">
               <li><span>🇫🇷 Français</span> Courant</li>
@@ -114,13 +105,15 @@
         <h2 class="section__title"><span class="section__num">02.</span> Compétences</h2>
         <div class="skills">
           <div class="skill-card">
+            <div class="skill-card__icon">🖥️</div>
             <h3>Systèmes &amp; Réseaux</h3>
             <ul class="tags">
               <li>Maintenance PC</li><li>Serveurs</li><li>Windows</li>
-              <li>Réseaux</li><li>Sécurité info</li><li>Sauvegardes</li>
+              <li>Réseaux</li><li>Sécurité informatique</li><li>Sauvegardes</li>
             </ul>
           </div>
           <div class="skill-card">
+            <div class="skill-card__icon">🌐</div>
             <h3>Développement Web</h3>
             <ul class="tags">
               <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
@@ -128,6 +121,7 @@
             </ul>
           </div>
           <div class="skill-card">
+            <div class="skill-card__icon">📊</div>
             <h3>Digitalisation &amp; ICT4D</h3>
             <ul class="tags">
               <li>KoboToolbox</li><li>Collecte de données</li><li>Marketing digital</li>
@@ -135,23 +129,26 @@
             </ul>
           </div>
           <div class="skill-card">
+            <div class="skill-card__icon">🎨</div>
             <h3>Graphisme &amp; Vidéo</h3>
             <ul class="tags">
               <li>Canva</li><li>Photoshop</li><li>CapCut</li>
-              <li>Motion</li><li>UI/UX</li>
+              <li>Motion Design</li><li>UI/UX</li>
             </ul>
           </div>
           <div class="skill-card">
+            <div class="skill-card__icon">📎</div>
             <h3>Bureautique &amp; Collaboration</h3>
             <ul class="tags">
               <li>MS Office (Expert)</li><li>Zoom</li><li>Microsoft Teams</li>
-              <li>Skype</li>
+              <li>Skype</li><li>Google Workspace</li>
             </ul>
           </div>
           <div class="skill-card">
+            <div class="skill-card__icon">🛠️</div>
             <h3>Support &amp; Services IT</h3>
             <ul class="tags">
-              <li>Support utilisateur</li><li>Déploiement d'applis</li><li>Maintenance préventive</li>
+              <li>Support utilisateur</li><li>Déploiement d'applications</li><li>Maintenance préventive</li>
               <li>Sécurisation des données</li>
             </ul>
           </div>
@@ -166,11 +163,11 @@
         <div class="timeline">
           <div class="timeline__item">
             <span class="timeline__date">Février 2024 — Présent</span>
-            <h3>Prestation de services (Communication &amp; IT) — Université Polytechnique de Bamako (UPB)</h3>
+            <h3>Chargé de communication &amp; IT — Université Polytechnique de Bamako (UPB)</h3>
             <p>
-              Conception et gestion de campagnes publicitaires digitales (Meta) ·
-              Création de supports visuels et institutionnels (Canva, Photoshop) ·
-              Support technique des outils de communication (Zoom, Skype, Microsoft Teams).
+              Conception et pilotage de campagnes publicitaires digitales (Meta Ads) ·
+              Création de supports visuels institutionnels (Canva, Photoshop) ·
+              Support technique des outils collaboratifs (Zoom, Skype, Teams).
             </p>
           </div>
           <div class="timeline__item">
@@ -178,19 +175,19 @@
             <h3>Technicien Informatique — Cyber Café les Élites, Bamako</h3>
             <p>
               Installation, configuration et maintenance préventive/corrective du parc informatique ·
-              Support technique matériel/logiciel et sécurisation des données ·
+              Support technique matériel et logiciel · Sécurisation des données ·
               Gestion des sauvegardes et déploiement d'applications.
             </p>
           </div>
           <div class="timeline__item">
             <span class="timeline__date">Été 2020</span>
-            <h3>Stagiaire en Développement Web — Centre Global de Technologies du Mali, Bamako</h3>
-            <p>Contribution au développement et à la mise à jour de sites web.</p>
+            <h3>Stagiaire Développeur Web — Centre Global de Technologies du Mali</h3>
+            <p>Développement et mise à jour de sites web (HTML, CSS, JavaScript, PHP).</p>
           </div>
           <div class="timeline__item">
             <span class="timeline__date">2017 — 2019</span>
             <h3>Gestionnaire des activités — Pressing Haoussa, Bamako</h3>
-            <p>Supervision des opérations et gestion des stocks.</p>
+            <p>Supervision des opérations quotidiennes et gestion des stocks.</p>
           </div>
         </div>
       </div>
@@ -211,12 +208,12 @@
               </div>
               <div class="timeline__item">
                 <span class="timeline__date">2023</span>
-                <h3>Licence Professionnelle — Gestion des Entreprises</h3>
+                <h3>Licence Pro. — Gestion des Entreprises</h3>
                 <p>CUPP-BALLAT.</p>
               </div>
               <div class="timeline__item">
                 <span class="timeline__date">2021</span>
-                <h3>Licence Professionnelle — Informatique de Gestion</h3>
+                <h3>Licence Pro. — Informatique de Gestion</h3>
                 <p>CUPP-BALLAT.</p>
               </div>
               <div class="timeline__item">
@@ -232,9 +229,9 @@
             </div>
           </div>
           <div>
-            <h3 class="subhead">Certifications &amp; Webinaires</h3>
+            <h3 class="subhead">Certifications &amp; Formations continues</h3>
             <ul class="certs">
-              <li>Développement front-end moderne (HTML5, CSS3, JS)</li>
+              <li>Développement front-end moderne (HTML5, CSS3, JavaScript)</li>
               <li>Développement full-stack (PHP, MySQL)</li>
               <li>Création et gestion de sites WordPress</li>
               <li>Design d'interfaces UI/UX</li>
@@ -242,7 +239,7 @@
             </ul>
             <h3 class="subhead subhead--mt">Centres d'intérêt</h3>
             <ul class="tags">
-              <li>Recherche technologique</li><li>Voyages</li><li>Sport</li>
+              <li>Veille technologique</li><li>Voyages</li><li>Sport</li>
             </ul>
           </div>
         </div>
@@ -255,52 +252,64 @@
         <h2 class="section__title"><span class="section__num">05.</span> Réalisations</h2>
         <div class="projects">
           <article class="project">
-            <div class="project__top">
-              <span class="project__icon">📣</span>
+            <div class="project__img">
+              <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=340&fit=crop" alt="Campagnes digitales Meta" loading="lazy" />
             </div>
-            <h3>Campagnes publicitaires digitales</h3>
-            <p>Conception et gestion de campagnes Meta (Facebook/Instagram) pour l'UPB : ciblage, création de visuels et suivi des performances.</p>
-            <ul class="tags tags--mono"><li>Meta Ads</li><li>Canva</li><li>Marketing digital</li></ul>
+            <div class="project__body">
+              <h3>Campagnes publicitaires digitales</h3>
+              <p>Conception et gestion de campagnes Meta (Facebook &amp; Instagram) pour l'Université Polytechnique de Bamako : stratégie de ciblage, création de visuels accrocheurs et suivi des indicateurs de performance.</p>
+              <ul class="tags tags--mono"><li>Meta Ads</li><li>Canva</li><li>Marketing digital</li></ul>
+            </div>
           </article>
           <article class="project">
-            <div class="project__top">
-              <span class="project__icon">🌐</span>
+            <div class="project__img">
+              <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=340&fit=crop" alt="Sites web et WordPress" loading="lazy" />
             </div>
-            <h3>Sites web &amp; WordPress</h3>
-            <p>Développement et mise à jour de sites web (HTML/CSS/JS, PHP) et création/gestion de sites sous WordPress.</p>
-            <ul class="tags tags--mono"><li>WordPress</li><li>PHP</li><li>HTML/CSS</li></ul>
+            <div class="project__body">
+              <h3>Sites web &amp; WordPress</h3>
+              <p>Développement de sites web sur mesure (HTML, CSS, JS, PHP) et création de sites institutionnels sous WordPress avec personnalisation de thèmes et plugins.</p>
+              <ul class="tags tags--mono"><li>WordPress</li><li>PHP</li><li>HTML/CSS/JS</li></ul>
+            </div>
           </article>
           <article class="project">
-            <div class="project__top">
-              <span class="project__icon">📊</span>
+            <div class="project__img">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=340&fit=crop" alt="Collecte de données" loading="lazy" />
             </div>
-            <h3>Collecte de données digitales</h3>
-            <p>Mise en place de formulaires et de la collecte de données terrain avec KoboToolbox dans une démarche ICT4D.</p>
-            <ul class="tags tags--mono"><li>KoboToolbox</li><li>Données</li><li>ICT4D</li></ul>
+            <div class="project__body">
+              <h3>Collecte de données digitales (ICT4D)</h3>
+              <p>Conception de formulaires et déploiement de la collecte de données terrain avec KoboToolbox au service de projets de développement.</p>
+              <ul class="tags tags--mono"><li>KoboToolbox</li><li>ICT4D</li><li>Données</li></ul>
+            </div>
           </article>
           <article class="project">
-            <div class="project__top">
-              <span class="project__icon">🎬</span>
+            <div class="project__img">
+              <img src="https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=600&h=340&fit=crop" alt="Création visuelle" loading="lazy" />
             </div>
-            <h3>Création visuelle &amp; montage vidéo</h3>
-            <p>Réalisation de supports institutionnels et de contenus vidéo : affiches, visuels réseaux sociaux et montages.</p>
-            <ul class="tags tags--mono"><li>Photoshop</li><li>CapCut</li><li>Motion</li></ul>
+            <div class="project__body">
+              <h3>Création visuelle &amp; montage vidéo</h3>
+              <p>Réalisation de supports de communication institutionnels et de contenus pour les réseaux sociaux : affiches, bannières, montages vidéo et motion design.</p>
+              <ul class="tags tags--mono"><li>Photoshop</li><li>CapCut</li><li>Motion</li></ul>
+            </div>
           </article>
           <article class="project">
-            <div class="project__top">
-              <span class="project__icon">🖥️</span>
+            <div class="project__img">
+              <img src="https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=600&h=340&fit=crop" alt="Maintenance informatique" loading="lazy" />
             </div>
-            <h3>Maintenance &amp; support du parc informatique</h3>
-            <p>Installation, configuration et maintenance préventive/corrective ; support matériel/logiciel et sécurisation des données.</p>
-            <ul class="tags tags--mono"><li>Windows</li><li>Réseaux</li><li>Support</li></ul>
+            <div class="project__body">
+              <h3>Maintenance du parc informatique</h3>
+              <p>Prise en charge complète d'un parc de postes clients : installation d'OS, diagnostic matériel, résolution de pannes, mises à jour de sécurité et maintenance préventive.</p>
+              <ul class="tags tags--mono"><li>Windows</li><li>Réseaux</li><li>Support</li></ul>
+            </div>
           </article>
           <article class="project">
-            <div class="project__top">
-              <span class="project__icon">💾</span>
+            <div class="project__img">
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=340&fit=crop" alt="Sauvegardes et déploiement" loading="lazy" />
             </div>
-            <h3>Sauvegardes &amp; déploiement d'applications</h3>
-            <p>Gestion des sauvegardes et déploiement d'applications pour assurer la continuité et la sécurité des données.</p>
-            <ul class="tags tags--mono"><li>Sauvegardes</li><li>Déploiement</li><li>Sécurité</li></ul>
+            <div class="project__body">
+              <h3>Sauvegardes &amp; déploiement d'applications</h3>
+              <p>Mise en place de politiques de sauvegarde automatique et déploiement d'applications métier pour garantir la continuité d'activité et la sécurité des données.</p>
+              <ul class="tags tags--mono"><li>Sauvegardes</li><li>Déploiement</li><li>Sécurité</li></ul>
+            </div>
           </article>
         </div>
       </div>
@@ -309,28 +318,34 @@
     <!-- CONTACT -->
     <section class="section section--alt" id="contact">
       <div class="container contact">
-        <h2 class="section__title section__title--center"><span class="section__num">06.</span> Contact</h2>
+        <h2 class="section__title section__title--center"><span class="section__num">06.</span> Me contacter</h2>
         <p class="contact__intro">
-          Une opportunité, un projet ou une question ?
-          Contactez-moi, je réponds rapidement !
+          Vous avez un projet, une opportunité ou simplement envie d'échanger ?
+          Envoyez-moi un message, je vous réponds dans les plus brefs délais.
         </p>
         <div class="contact__info">
-          <a href="mailto:Amadoudao125@gmail.com">✉️ Amadoudao125@gmail.com</a>
+          <a href="mailto:Amadoudao125@gmail.com" target="_blank" rel="noopener">✉️ Amadoudao125@gmail.com</a>
           <a href="tel:+22371060784">📞 +223 71 06 07 84</a>
           <span>📍 Bamako-Boulkassoumbougou, BP 91091, Mali</span>
         </div>
-        <form class="contact__form" id="contactForm" novalidate>
+        <form class="contact__form" id="contactForm" action="https://formsubmit.co/Amadoudao125@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Nouveau message depuis votre portfolio" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://portfolio-zidqvmqo.devinapps.com/#contact" />
+          <input type="text" name="_honey" style="display:none" />
           <div class="field">
-            <input type="text" id="name" name="name" placeholder="Votre nom" required />
+            <input type="text" name="name" placeholder="Votre nom complet" required />
           </div>
           <div class="field">
-            <input type="email" id="email" name="email" placeholder="Votre email" required />
+            <input type="email" name="email" placeholder="Votre adresse email" required />
           </div>
           <div class="field">
-            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+            <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
           </div>
-          <button type="submit" class="btn btn--primary btn--full">Envoyer</button>
-          <p class="contact__status" id="formStatus" role="status"></p>
+          <button type="submit" class="btn btn--primary btn--full">
+            <span>Envoyer le message</span>
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+          </button>
         </form>
       </div>
     </section>
@@ -338,7 +353,7 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>Conçu &amp; développé par Amadou Dao — 2026</p>
+      <p>&copy; 2026 Amadou Dao — Tous droits réservés</p>
       <p class="footer__note">Spécialiste IT · Bamako, Mali</p>
     </div>
   </footer>
